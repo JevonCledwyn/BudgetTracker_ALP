@@ -14,6 +14,9 @@
 		04A666682A235061000B5B45 /* BudgetTracker_ALPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A666672A235061000B5B45 /* BudgetTracker_ALPTests.swift */; };
 		04A666722A235061000B5B45 /* BudgetTracker_ALPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A666712A235061000B5B45 /* BudgetTracker_ALPUITests.swift */; };
 		04A666742A235061000B5B45 /* BudgetTracker_ALPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A666732A235061000B5B45 /* BudgetTracker_ALPUITestsLaunchTests.swift */; };
+		04A666872A2352D4000B5B45 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A666862A2352D4000B5B45 /* Home.swift */; };
+		04A666892A23535F000B5B45 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A666882A23535F000B5B45 /* Expense.swift */; };
+		04A6668B2A235FBF000B5B45 /* ExpenseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6668A2A235FBF000B5B45 /* ExpenseViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		04A6666D2A235061000B5B45 /* BudgetTracker_ALPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudgetTracker_ALPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A666712A235061000B5B45 /* BudgetTracker_ALPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetTracker_ALPUITests.swift; sourceTree = "<group>"; };
 		04A666732A235061000B5B45 /* BudgetTracker_ALPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetTracker_ALPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04A666862A2352D4000B5B45 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		04A666882A23535F000B5B45 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		04A6668A2A235FBF000B5B45 /* ExpenseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,9 @@
 		04A666552A23505F000B5B45 /* BudgetTracker_ALP */ = {
 			isa = PBXGroup;
 			children = (
+				04A666852A2352A8000B5B45 /* ViewModel */,
+				04A666842A235261000B5B45 /* Model */,
+				04A666832A23524F000B5B45 /* View */,
 				04A666562A23505F000B5B45 /* BudgetTracker_ALPApp.swift */,
 				04A666582A23505F000B5B45 /* ContentView.swift */,
 				04A6665A2A235061000B5B45 /* Assets.xcassets */,
@@ -125,6 +134,30 @@
 				04A666732A235061000B5B45 /* BudgetTracker_ALPUITestsLaunchTests.swift */,
 			);
 			path = BudgetTracker_ALPUITests;
+			sourceTree = "<group>";
+		};
+		04A666832A23524F000B5B45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04A666862A2352D4000B5B45 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04A666842A235261000B5B45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04A666882A23535F000B5B45 /* Expense.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04A666852A2352A8000B5B45 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				04A6668A2A235FBF000B5B45 /* ExpenseViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +290,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A666892A23535F000B5B45 /* Expense.swift in Sources */,
 				04A666592A23505F000B5B45 /* ContentView.swift in Sources */,
+				04A666872A2352D4000B5B45 /* Home.swift in Sources */,
+				04A6668B2A235FBF000B5B45 /* ExpenseViewModel.swift in Sources */,
 				04A666572A23505F000B5B45 /* BudgetTracker_ALPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
